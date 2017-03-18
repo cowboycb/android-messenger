@@ -28,6 +28,7 @@ public class CreateMessageActivity extends AppCompatActivity {
         String chsTitle = getString(R.string.strChooseAppTitle);
         Intent chosenIntent = Intent.createChooser(intent, chsTitle);
         startActivity(chosenIntent);
+        // seçimli pencere açılır.
     }
 
 }
